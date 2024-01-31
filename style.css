@@ -2,11 +2,13 @@ html {
   box-sizing: border-box;
 }
 
-body {
+.hero-body {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: blueviolet;
 }
 
-.h1{
-    display: flex;
+.hero-body p{
     align-items: center;
 }
