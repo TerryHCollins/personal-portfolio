@@ -9,6 +9,11 @@ html {
   background-color: blueviolet;
 }
 
-.hero-body p{
-    align-items: center;
+.hero-body p {
+  text-align: center;
+}
+.button {
+  border: none;
+  border-radius: 12px;
+  
 }
