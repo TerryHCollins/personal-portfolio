@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-color: #303333;
+  text-align: left;
+}
+h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 57px;
+  font-style: normal;
+  line-height: 100%;
+  letter-spacing: 4px;
+}
+
+h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  line-height: 100%;
+  font-size: 26px;
+  letter-spacing: 3px;
+}
+
+p {
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  line-height: 100%;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+nav ul {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  list-style: none;
+}
+.hero-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.hero-body p {
+  text-align: center;
+}
+
+.button {
+  border: none;
+  border-radius: 12px;
+}
+
+.icons svg {
+  max-width: 20px;
+}
