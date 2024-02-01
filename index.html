@@ -9,22 +9,32 @@
       href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/script" href="/script.js" />
-
     <title>Terry's Portfolio 📔</title>
   </head>
   <body>
     <nav>
-      <ul>
-        <li>Menu</li>
-        <li>Menu</li>
-        <li>Menu</li>
-      </ul>
+      <!-- Top Navigation Menu -->
+      <div class="topnav">
+        <!-- <a href="#home" class="active">Logo</a> -->
+        <!-- Navigation links (hidden by default) -->
+        <div class="myLinks hidden" id="menuLinks">
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <button class="icon mobile-menu" id="mobilemenu">
+          <i class="fa fa-bars"></i>
+        </button>
+      </div>
     </nav>
     <div class="hero-body">
-      <h1>"Hello, I'm Terry!"</h1>
+      <h1>Hello, I'm Terry!</h1>
       <div>
         <p>
           I am a Front End Developer & Writer based in Edmonton. I am remote
@@ -35,21 +45,23 @@
     <div class="button">
       <button>Contact Me</button>
     </div>
-    <container class="container-1"> 
-    <div class="card-1">
-      <h2>Web Dev Projects</h2>
-      <p></p>
+    <container class="container-1">
+      <div class="card-1">
+        <h2>Web Dev Projects</h2>
+        <img src="assets/pexels-lumn-406014.jpg" />
+        <p></p>
       </div>
     </container>
 
-      <div class="card-2">
-        <h2>Writings</h2>
-        <p></p>
-      </div>
+    <div class="card-2">
+      <h2>Writings</h2>
+      <p></p>
+    </div>
 
-      <div class="card-3">
-        <h2>Bio</h2>
-        <p>Stuff Goes Here</p>
-      </div>
+    <div class="card-3">
+      <h2>Bio</h2>
+      <p>Stuff Goes Here</p>
+    </div>
+    <script src="/script.js"></script>
   </body>
 </html>
