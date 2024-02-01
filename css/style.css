@@ -3,10 +3,10 @@ html {
 }
 
 body {
-  display: flex;
-  background-color: #303333;
-  text-align: left;
+  color: white;
+  background-color: black;
 }
+
 h1 {
   font-family: "Outfit", sans-serif;
   font-weight: 700;
@@ -33,9 +33,13 @@ p {
 }
 
 nav ul {
+  display: flex;
+  flex-direction: row;
   font-family: "Outfit", sans-serif;
   font-weight: 300;
   list-style: none;
+  gap: 10px;
+  background-color: rgba(137, 43, 226, 0.562);
 }
 .hero-body {
   display: flex;
@@ -48,11 +52,18 @@ nav ul {
   text-align: center;
 }
 
-.button {
+button {
   border: none;
-  border-radius: 12px;
+  border-radius: 5px;
 }
 
-.icons svg {
-  max-width: 20px;
+.container-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.card-1 {
+  border: none;
+  border-radius: 10px;
+  background-color: aliceblue;
 }
