@@ -112,13 +112,24 @@ background-color: aliceblue;}
 .container-2 {
   display: flex;
   justify-content: center;
-  padding: 50px 20px 50px 20px;
+  padding: 50px;
 }
 
 .project-img {
   max-width: 100%;
   border: none;
   border-radius: 15px;
+}
+
+.project-1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: bolder;
+  list-style: none;
+}
+
+.project-1:hover {
+  cursor: pointer;
+  color: blanchedalmond;
 }
 
 @media screen and (min-width: 600px) {
