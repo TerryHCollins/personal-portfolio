@@ -75,26 +75,38 @@ p {
   text-align: center;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+}
+
 button {
   border: none;
-  border-radius: 5px;
+  border-radius: 50px;
+  background-color: greenyellow;
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  line-height: 100%;
+  font-size: 18px;
+  letter-spacing: 2px;
 }
 
 .container-1 {
   display: flex;
   justify-content: center;
+  padding: 20px;
 }
 
 .container-1 img {
   display: flex;
-  max-width: 100px;
+  max-width: 50%;
   justify-content: center;
 }
 
 .card-1 {
   border: none;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.842);
+  background-color: rgba(160, 255, 219, 0.726);
 }
 @media screen and (min-width: 600px) {
   /* hiding mobile menu */
