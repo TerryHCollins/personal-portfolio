@@ -2,9 +2,18 @@ html {
   box-sizing: border-box;
 }
 
+:root {
+  --white: #ffffff;
+  --amber: #ffbf00;
+  --raspberry: #db1a50;
+  --black: #08090c;
+  --turquoise: #41e1be;
+  --ucla-blue: #2274a5;
+}
+
 body {
-  color: white;
-  background-color: black;
+  color: var(--white);
+  background-color: var(--black);
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -26,14 +35,6 @@ h2 {
   letter-spacing: 3px;
 }
 
-h3 {
-  font-family: "Dosis", sans-serif;
-  font-weight: 300;
-  line-height: 100%;
-  font-size: 20px;
-  letter-spacing: 3px;
-}
-
 p {
   font-family: "Dosis", sans-serif;
   font-weight: 600;
@@ -48,12 +49,15 @@ p {
   position: relative;
   font-family: "Outfit", sans-serif;
   font-weight: 300;
-  gap: 20px;
+  gap: 60px;
   justify-content: right;
   overflow: hidden;
+  top: 10px;
 }
 
 .myLinks {
+  display: inline-flex;
+  gap: 10px;
   top: 50px;
   z-index: 100;
 }
@@ -94,19 +98,18 @@ p {
 .social-icons img {
   display: inline-flex;
   gap: 20px;
-  background-color: whitesmoke;
 }
 
 button {
   border: none;
-  border-radius: 50px;
-  background-color: greenyellow;
+  border-radius: 20px;
+  background-color: var(--turquoise);
   font-family: "Dosis", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 100%;
   font-size: 18px;
   letter-spacing: 2px;
-  padding: 0 20px 0 20px;
+  padding: 5px 20px 5px 20px;
 }
 
 .card-1 {
@@ -142,27 +145,34 @@ button {
 
 .project-1:hover {
   cursor: pointer;
-  color: violet;
+  color: var(--amber);
 }
 
 .connect-social-icons {
   display: inline-flex;
-  background-color: whitesmoke;
+  fill-opacity: 100%;
   gap: 20px;
-}
-
-.icon a:hover {
-  cursor: pointer;
-  color: violet;
 }
 
 .contact-form {
   display: block;
+  max-width: 90%;
+}
+
+input,
+textarea {
+  padding: 10px;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  font-family: "Dosis", sans-serif;
 }
 
 .submit-button {
   display: flex;
+  margin-top: 10px;
 }
+
 @media screen and (min-width: 600px) {
   /* hiding mobile menu */
   .mobile-menu {
