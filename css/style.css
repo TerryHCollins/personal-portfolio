@@ -26,6 +26,14 @@ h2 {
   letter-spacing: 3px;
 }
 
+h3 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 300;
+  line-height: 100%;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
 p {
   font-family: "Dosis", sans-serif;
   font-weight: 600;
@@ -80,11 +88,11 @@ p {
   align-items: center;
   max-width: 16%;
   gap: 20px;
-  padding-left: 40px;
+  padding-left: 36px;
 }
 
-.social-icons .connect-icons img {
-  display: inline-block;
+.social-icons img {
+  display: inline-flex;
   gap: 20px;
   background-color: whitesmoke;
 }
@@ -134,9 +142,27 @@ button {
 
 .project-1:hover {
   cursor: pointer;
-  color: blanchedalmond;
+  color: violet;
 }
 
+.connect-social-icons {
+  display: inline-flex;
+  background-color: whitesmoke;
+  gap: 20px;
+}
+
+.icon a:hover {
+  cursor: pointer;
+  color: violet;
+}
+
+.contact-form {
+  display: block;
+}
+
+.submit-button {
+  display: flex;
+}
 @media screen and (min-width: 600px) {
   /* hiding mobile menu */
   .mobile-menu {

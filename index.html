@@ -96,7 +96,6 @@
         <div class="connect-social-icons">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
-            
           />
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
@@ -107,10 +106,27 @@
           />
         </div>
       </section>
-
       <hr />
     </main>
-    <footer></footer>
+    <footer>
+      <form class="contact-form">
+        <input type="text" id="input-name" placeholder="Name" />
+        <input type="email" id="input-email" placeholder="Email address" />
+        <input type="text" id="input-subject" placeholder="Subject" />
+
+        <textarea
+          name="message"
+          type="text"
+          id="input-message"
+          placeholder="Message"
+        ></textarea>
+        <button class="submit-button">Submit</button>
+      </form>
+
+      <div class="copyright">
+        <p>&copy;Terry Hachey-Collins</p>
+      </div>
+    </footer>
     <script src="/script.js"></script>
   </body>
 </html>
