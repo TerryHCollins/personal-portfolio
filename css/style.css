@@ -77,14 +77,15 @@ p {
 
 .header-icons {
   display: flex;
-  flex-direction: row;
-  max-width: 50px;
+  align-items: center;
+  max-width: 16%;
+  gap: 20px;
+  padding-left: 40px;
 }
 
 .social-icons img {
-  display: block;
+  display: inline-block;
   gap: 20px;
-  max-width: 100%;
   background-color: whitesmoke;
 }
 
@@ -97,28 +98,30 @@ button {
   line-height: 100%;
   font-size: 18px;
   letter-spacing: 2px;
+  padding: 0 20px 0 20px;
 }
 
-.container-1 {
+.card-1 {
   display: flex;
-  justify-content: center;
-  padding: 50px 20px 50px 20px;
+  align-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
-
 .profile-img {
-  max-width: 100%;
+  max-width: 80%;
   border: none;
   border-radius: 15px;
 }
 
-.container-2 {
+.card-2 {
   display: flex;
-  justify-content: center;
-  padding: 50px;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .project-img {
-  max-width: 100%;
+  max-width: 60%;
   border: none;
   border-radius: 15px;
 }
