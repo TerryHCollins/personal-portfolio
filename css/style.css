@@ -83,7 +83,7 @@ p {
   padding-left: 40px;
 }
 
-.social-icons img {
+.social-icons .connect-icons img {
   display: inline-block;
   gap: 20px;
   background-color: whitesmoke;
@@ -135,7 +135,6 @@ button {
 .project-1:hover {
   cursor: pointer;
   color: blanchedalmond;
-  
 }
 
 @media screen and (min-width: 600px) {
