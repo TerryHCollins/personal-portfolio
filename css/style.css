@@ -90,14 +90,13 @@ p {
 }
 
 .header-icons {
-  display: flex;
   align-items: center;
   max-width: 16%;
   gap: 20px;
 }
 
-.social-icons img {
-  display: inline-flex;
+.social-icons {
+  display: flex;
   gap: 20px;
 }
 
@@ -224,6 +223,15 @@ a:hover {
 /* want buttons to toggle from turquoise to blue when clicked/hover */
 
 /* resize icons to be the same across page */
+.social-icons {
+  display: flex;
+  max-width: 40%;
+}
+
+.connect-social-icons {
+  display: flex;
+  max-width: 5%;
+}
 /* remove underline style of hyperlinks to use color only to make them stand out */
 /* toggle hyperlinks from blue to amber color vars when clicked/hover */
 
