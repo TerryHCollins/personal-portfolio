@@ -182,3 +182,46 @@ textarea {
     display: block;
   }
 }
+
+/* adjust text */
+.topnav {
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 55px;
+}
+p {
+  font-size: 25px;
+}
+form input {
+  font-size: 30px;
+  color: var(--raspberry);
+}
+button {
+  font-size: 30px;
+}
+
+/* hover attributes */
+
+.topnav a:hover {
+  color: var(--amber);
+  font-size: xx-large;
+}
+
+a:hover {
+  font-size: xx-large;
+  color: var(--amber);
+}
+/* want buttons to toggle from turquoise to blue when clicked/hover */
+
+/* resize icons to be the same across page */
+/* remove underline style of hyperlinks to use color only to make them stand out */
+/* toggle hyperlinks from blue to amber color vars when clicked/hover */
+
+/* maybe have menu links scroll user to anchor on page via section  */

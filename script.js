@@ -7,4 +7,6 @@ function toggleMobileMenu() {
   myLinks.classList.toggle("hidden");
 }
 
-mobileMenuButton.addEventListener("click", toggleMobileMenu);
+// Add buttons
+//Contact Button
+//Form Submit Button
