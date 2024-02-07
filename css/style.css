@@ -75,6 +75,7 @@ p {
 .topnav .icon {
   display: hidden;
 }
+
 .hidden {
   display: none;
 }
@@ -91,14 +92,18 @@ p {
 
 .header-icons {
   align-items: center;
-  max-width: 16%;
+  max-width: 40%;
   gap: 20px;
 }
 
-.social-icons {
+/* .social-icons {
   display: flex;
   gap: 20px;
 }
+
+.contact-button {
+  text-align: center;
+  min-width: fit-content; */
 
 button {
   border: none;
@@ -150,13 +155,12 @@ button {
 
 .connect-social-icons {
   display: inline-flex;
-  fill-opacity: 100%;
+  min-width: 60px;
   gap: 20px;
 }
 
 .contact-form {
-  display: block;
-  max-width: 90%;
+  max-width: 70%;
 }
 
 input,

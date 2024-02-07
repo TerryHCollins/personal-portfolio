@@ -52,14 +52,14 @@
       </section>
       <hr />
       <!-- contact button/social links -->
-      <section class="header-icons">
+      <!-- <section class="header-icons">
         <div class="social-icons">
           <button id="contact-button button">Contact Me</button>
           <div></div>
           <img src="assets/linkedin.svg" />
           <img src="assets/github.svg" />
         </div>
-      </section>
+      </section> -->
 
       <!-- List of newest projects to display -->
       <section class="projects">
@@ -102,20 +102,24 @@
       <hr />
     </main>
     <footer>
-      <form class="contact-form">
-        <input type="text" id="input-name" placeholder="Name" />
-        <input type="email" id="input-email" placeholder="Email address" />
-        <input type="text" id="input-subject" placeholder="Subject" />
-
-        <textarea
-          name="message"
-          type="text"
-          id="input-message"
-          placeholder="Message"
-        ></textarea>
-        <button id="submit-button button" input type="button">Submit</button>
-      </form>
-
+      <!-- form -->
+      <div id="contact-form">
+        <form action="https://formspree.io/f/xwkglaor" method="POST">
+          <label>
+            Name
+            <input type="text" name="name" />
+          </label>
+          <label>
+            Your email
+            <input type="email" name="email" />
+          </label>
+          <label>
+            Your message
+            <textarea name="message"></textarea>
+          </label>
+          <button type="submit">Send</button>
+        </form>
+      </div>
       <div class="copyright">
         <p>&copy;Terry Hachey-Collins</p>
       </div>
