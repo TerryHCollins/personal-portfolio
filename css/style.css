@@ -155,8 +155,12 @@ button {
 
 .connect-social-icons {
   display: inline-flex;
-  min-width: 60px;
+  /* min-width: 60px; */
   gap: 20px;
+}
+
+.svgContainer {
+  min-width: 60px;
 }
 
 .contact-form {
@@ -173,8 +177,6 @@ textarea {
   color: var(--raspberry);
 }
 
-.input-message {
-}
 .submit-button {
   display: flex;
   flex-direction: inherit;
