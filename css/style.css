@@ -150,10 +150,9 @@ button {
 
 .languages {
   display: flex;
-  justify-content: center center;
-  padding-left: 30px;
-  width: 20%;
+  align-items: center;
   gap: 10px;
+  max-width: 20%;
 }
 .contact-form {
   max-width: 70%;
@@ -247,7 +246,7 @@ a:hover {
     width: 40%;
   }
   .languages {
-    align-items: center center;
+    flex-grow: calc(20);
   }
 }
 /* styles for devices larger than 1080px */
@@ -259,6 +258,6 @@ a:hover {
   }
 
   .languages {
-    align-items: center center;
+    align-items: center;
   }
 }
