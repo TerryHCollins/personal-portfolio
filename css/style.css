@@ -115,6 +115,15 @@ button {
   flex-direction: column;
 }
 
+.projects {
+  padding: 40px;
+}
+
+.languages {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
 .profile-img {
   max-width: 80%;
   border: none;
