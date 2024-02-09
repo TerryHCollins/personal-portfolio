@@ -114,17 +114,11 @@ button {
   flex-wrap: wrap;
   flex-direction: column;
 }
+
 .profile-img {
   max-width: 80%;
   border: none;
   border-radius: 15px;
-}
-
-.card-2 {
-  display: flex;
-  align-content: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
 }
 
 .project-img {
@@ -156,7 +150,10 @@ button {
 
 .languages {
   display: flex;
-  width: 20px;
+  justify-content: center center;
+  padding-left: 30px;
+  width: 20%;
+  gap: 10px;
 }
 .contact-form {
   max-width: 70%;
@@ -175,16 +172,6 @@ textarea {
 .submit-button {
   display: flex;
   flex-direction: inherit;
-}
-
-@media screen and (min-width: 600px) {
-  /* hiding mobile menu */
-  .mobile-menu {
-    display: none;
-  }
-  .myLinks {
-    display: block;
-  }
 }
 
 /* adjust text */
@@ -237,3 +224,41 @@ a:hover {
 /* toggle hyperlinks from blue to amber color vars when clicked/hover */
 
 /* maybe have menu links scroll user to anchor on page via section  */
+
+/* media query */
+
+/* styles for devices larger than 600px */
+@media screen and (min-width: 600px) {
+  /* hiding mobile menu */
+  .mobile-menu {
+    display: none;
+  }
+  .myLinks {
+    display: block;
+  }
+  /* projects section to change to side by side */
+  .projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card-2,
+  .card-3 {
+    width: 40%;
+  }
+  .languages {
+    align-items: center center;
+  }
+}
+/* styles for devices larger than 1080px */
+@media screen and (min-width: 1080px) {
+  /* change width size to fit larger screen */
+  .card-2,
+  .card-3 {
+    width: 45%;
+  }
+
+  .languages {
+    align-items: center center;
+  }
+}
