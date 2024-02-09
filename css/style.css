@@ -96,15 +96,6 @@ p {
   gap: 20px;
 }
 
-/* .social-icons {
-  display: flex;
-  gap: 20px;
-}
-
-.contact-button {
-  text-align: center;
-  min-width: fit-content; */
-
 button {
   border: none;
   border-radius: 20px;
@@ -154,8 +145,8 @@ button {
 }
 
 .connect-social-icons {
-  display: inline-flex;
-  /* min-width: 60px; */
+  display: flex;
+  align-items: flex-end;
   gap: 20px;
 }
 
@@ -163,6 +154,10 @@ button {
   min-width: 60px;
 }
 
+.languages {
+  display: flex;
+  width: 20px;
+}
 .contact-form {
   max-width: 70%;
 }
