@@ -194,8 +194,8 @@ textarea {
 }
 
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* adjust text */
@@ -232,7 +232,6 @@ a:hover {
   font-size: xx-large;
   color: var(--amber);
 }
-/* want buttons to toggle from turquoise to blue when clicked/hover */
 
 /* resize icons to be the same across page */
 .social-icons {
@@ -244,10 +243,6 @@ a:hover {
   display: flex;
   max-width: 5%;
 }
-/* remove underline style of hyperlinks to use color only to make them stand out */
-/* toggle hyperlinks from blue to amber color vars when clicked/hover */
-
-/* maybe have menu links scroll user to anchor on page via section  */
 
 /* media query */
 
