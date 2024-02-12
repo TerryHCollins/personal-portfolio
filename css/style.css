@@ -261,9 +261,16 @@ a:hover {
     justify-content: space-between;
     align-items: center;
   }
+  .project-h2 {
+    text-align: center;
+  }
   .card-2,
   .card-3 {
-    width: 40%;
+    background-color: #2275a585;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 100%;
   }
 }
 /* styles for devices larger than 1080px */
@@ -276,8 +283,8 @@ a:hover {
 
   .languages {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 10%;
-    margin: 50px;
-    padding-left: 400px;
   }
 }
