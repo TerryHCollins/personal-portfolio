@@ -54,6 +54,10 @@ p {
   letter-spacing: 0.5px;
 }
 
+a {
+  color: var(--amber);
+}
+
 .topnav {
   display: flex;
   flex-direction: row;
@@ -145,6 +149,10 @@ button {
   border-radius: 15px;
 }
 
+.arrow-btn {
+  max-width: 60px;
+}
+
 .project-1 {
   font-family: "Outfit", sans-serif;
   font-weight: bolder;
@@ -170,6 +178,9 @@ button {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.languages img {
   max-width: 20%;
 }
 .contact-form {
@@ -284,7 +295,6 @@ a:hover {
   .languages {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 10%;
+    justify-content: center;
   }
 }
