@@ -267,6 +267,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
   }
   .project-h2 {
     text-align: center;
@@ -287,9 +288,7 @@ a:hover {
 
   .card-2,
   .card-3 p {
-    display: flex;
     flex-direction: column;
-    margin: 10px;
     padding: 5px;
   }
 }
@@ -299,14 +298,15 @@ a:hover {
 
   .card-2,
   .card-3 {
-    flex-basis: 100%;
+    flex: 1;
+    flex-shrink: 0;
     text-wrap: balance;
     word-spacing: 2px;
   }
-}
 
-.languages {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  .languages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
