@@ -138,9 +138,9 @@ button {
   padding-left: 20px;
 }
 .profile-img {
-  max-width: 80%;
-  border: none;
-  border-radius: 15px;
+  max-width: 20%;
+  border: dotted var(--ucla-blue) ;
+  border-radius: 13rem;
 }
 
 .project-img {
