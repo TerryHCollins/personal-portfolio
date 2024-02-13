@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffffff;
+  --amber: #ffbf00;
+  --raspberry: #db1a50;
+  --black: #08090c;
+  --turquoise: #41e1be;
+  --ucla-blue: #2274a5;
+}
+
+body {
+  color: var(--white);
+  background-color: var(--black);
+  margin-left: 20px;
+  margin-right: 20px;
+}

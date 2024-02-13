@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffffff;
+  --amber: #ffbf00;
+  --raspberry: #db1a50;
+  --black: #08090c;
+  --turquoise: #41e1be;
+  --ucla-blue: #2274a5;
+}
+
+body {
+  color: var(--white);
+  background-color: var(--black);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 57px;
+  font-style: normal;
+  line-height: 100%;
+  letter-spacing: 4px;
+  text-align: left;
+}
+
+h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  line-height: 100%;
+  font-size: 26px;
+  letter-spacing: 3px;
+  text-align: left;
+}
+
+h3 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  line-height: 150%;
+  font-size: 26px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+p {
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  line-height: 100%;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+a {
+  color: var(--amber);
+}
