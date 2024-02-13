@@ -17,3 +17,64 @@ body {
   margin-left: 20px;
   margin-right: 20px;
 }
+h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 57px;
+  font-style: normal;
+  line-height: 100%;
+  letter-spacing: 4px;
+  text-align: left;
+}
+
+h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  line-height: 100%;
+  font-size: 26px;
+  letter-spacing: 3px;
+  text-align: left;
+}
+
+h3 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  line-height: 150%;
+  font-size: 26px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+p {
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  line-height: 100%;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+a {
+  color: var(--amber);
+}
+.return-homepage {
+  flex-wrap: nowrap;
+  border: none;
+  margin: 20px;
+}
+
+.return-home {
+  display: flex;
+  padding-right: 20px;
+  align-items: right;
+}
+
+/* media query */
+
+/* styles for devices larger than 600px */
+@media screen and (min-width: 600px) {
+}
+
+/* styles for devices larger than 1080px */
+@media screen and (min-width: 1080px) {
+}
+/* change width size to fit larger screen */
