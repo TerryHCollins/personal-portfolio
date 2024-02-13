@@ -296,14 +296,17 @@ a:hover {
 /* styles for devices larger than 1080px */
 @media screen and (min-width: 1080px) {
   /* change width size to fit larger screen */
+
   .card-2,
   .card-3 {
-    width: 45%;
+    flex-basis: 100%;
+    text-wrap: balance;
+    word-spacing: 2px;
   }
+}
 
-  .languages {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
+.languages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
