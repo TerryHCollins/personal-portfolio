@@ -103,13 +103,13 @@ h1 {
 
 /* styles for devices larger than 600px */
 @media screen and (min-width: 600px) {
+  .itlct-img {
+    width: 90%;
+  }
 }
 
 /* styles for devices larger than 1080px */
 @media screen and (min-width: 1080px) {
-  .itlct-img {
-    width: 90%;
-  }
 }
 
 /* change width size to fit larger screen */
