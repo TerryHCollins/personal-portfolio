@@ -14,9 +14,13 @@ html {
 body {
   color: var(--white);
   background-color: var(--black);
+}
+
+.wrapper {
   margin-left: 20px;
   margin-right: 20px;
 }
+
 h1 {
   font-family: "Outfit", sans-serif;
   font-weight: 700;
@@ -45,7 +49,8 @@ h3 {
   text-align: left;
 }
 
-p {
+p,
+.p {
   font-family: "Dosis", sans-serif;
   font-weight: 600;
   line-height: 100%;
@@ -56,18 +61,32 @@ p {
 a {
   color: var(--amber);
 }
-.return-homepage {
-  flex-wrap: nowrap;
-  border: none;
-  margin: 20px;
+
+a:hover {
+  font-size: xx-large;
+  color: var(--amber);
+}
+.nav {
+  display: inline-flex;
+  margin: 5px;
 }
 
-.return-home {
+h1 {
   display: flex;
-  padding-right: 20px;
-  align-items: right;
+  flex-direction: row;
+  padding: 35px;
 }
-
+.wd-1 {
+  display: block;
+  line-height: 3px;
+  text-align: left;
+  word-spacing: 0.5px;
+}
+.itlct-img {
+  width: 90%;
+  justify-content: center;
+  padding-left: 15px;
+}
 /* media query */
 
 /* styles for devices larger than 600px */
