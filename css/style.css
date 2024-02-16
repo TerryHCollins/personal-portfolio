@@ -244,6 +244,15 @@ a:hover {
   color: var(--amber);
 }
 
+.dreams {
+  color: var(--turquoise);
+}
+
+.dreams:hover {
+  font-size: xx-large;
+  color: var(--amber);
+}
+
 /* resize icons to be the same across page */
 
 .connect-social-icons {
