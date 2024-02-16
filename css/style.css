@@ -3,10 +3,10 @@ html {
 }
 
 :root {
-  --white: #ffffff;
+  --white: #fcfcff;
   --amber: #ffbf00;
   --raspberry: #db1a50;
-  --black: #08090c;
+  --black: #231f20;
   --turquoise: #41e1be;
   --ucla-blue: #2274a5;
 }
@@ -246,6 +246,7 @@ a:hover {
 
 .dreams {
   color: var(--raspberry);
+  font-weight: bolder;
 }
 
 .dreams:hover {
